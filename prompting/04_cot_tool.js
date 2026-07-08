@@ -90,6 +90,7 @@ async function main(prompt = '') {
   MESSAGES_DB.push({ role: 'user', content: prompt });
 
   while (true) {
+    // completions apis
     const result = await client.chat.completions.create({
       model: 'gpt-4o',
       messages: MESSAGES_DB,

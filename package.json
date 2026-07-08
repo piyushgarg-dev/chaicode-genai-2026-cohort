@@ -10,8 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "@google/genai": "^2.10.0",
     "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
     "openai": "^6.45.0",
-    "tiktoken": "^1.0.22"
+    "tiktoken": "^1.0.22",
+    "zod": "^4.4.3"
   }
 }
